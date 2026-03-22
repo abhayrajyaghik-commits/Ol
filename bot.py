@@ -29,7 +29,7 @@ ADMIN_ID = [8772814136]
 GROUP_ID = -1003886412726
 
 # API Base URL
-API_BASE_URL = "http://dev-kamal.pw/shopi.php"
+API_BASE_URL = "http://5.45.126.118:5000/shopify"
 
 ACTIVE_MTXT_PROCESSES = {}
 TEMP_WORKING_SITES = {}
