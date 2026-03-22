@@ -225,6 +225,7 @@ SITE_ERROR_KEYWORDS = [
     'ssl error',
     '502',
     '503',
+    'TOKENIZE_FAIL',
     'bad gateway',
     'service unavailable',
     'gateway timeout',
