@@ -29,7 +29,7 @@ ADMIN_ID = [8772814136]
 GROUP_ID = -1003886412726
 
 # API Base URL
-API_BASE_URL = "http://dev-kamal.pw/shopi.php"
+API_BASE_URL = "http://5.45.126.118:5000/shopify"
 
 ACTIVE_MTXT_PROCESSES = {}
 TEMP_WORKING_SITES = {}
@@ -144,7 +144,7 @@ def build_api_url(site, cc, proxy_data=None):
     encoded_cc = quote(cc, safe='')
     encoded_site = quote(site, safe='')
 
-    url = f'{API_BASE_URL}?url={encoded_site}&cc={encoded_cc}'
+    url = f'{API_BASE_URL}?site={encoded_site}&cc={encoded_cc}'
     if proxy_str:
         encoded_proxy = quote(proxy_str, safe='')
         url += f'&proxy={encoded_proxy}'
