@@ -63,7 +63,7 @@ CE = {
     "link":   5042101437237036298,   # ?? link/site
     "globe":  5042186567783809934,   # ?? site checker
 }
-PE = "?"  # placeholder char � must be a real emoji for CustomEmoji entities
+PE = "🔥"  # placeholder char � must be a real emoji for CustomEmoji entities
 
 client_instance = None
 
